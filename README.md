@@ -34,6 +34,7 @@ Plot the datas using Box Plot.
 ```
 DEVELOPED BY: M.D.HARINI
 REGISTER NUMBER: 212222230043
+
 import pandas as pd
 df=pd.read_csv("/content/bhp.csv")
 df.head()
@@ -106,7 +107,7 @@ print(newdata_weight)
 sns.boxplot(x='weight',data=newdata_weight)
 ```
 ## OUTPUT:
-bhp.csv IQR METHOD
+# bhp.csv 
 
 ## df.head()
 ![image](https://user-images.githubusercontent.com/113497680/227696829-2b2c4833-7a33-4637-b4d4-6d6ac36180a0.png)
